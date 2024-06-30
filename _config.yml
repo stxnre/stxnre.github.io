@@ -1,8 +1,8 @@
 # Setup
 title:               Stefan Inzer
-tagline:             'About Me'
-description:         'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 http://lanyon.getpoole.com
+tagline:             'stxnre'
+description:         'PhD Student in Statistics at the University of Washington'
+url:                 http://stxnre.github.io
 baseurl:             ''
 paginate:            5
 permalink:           pretty
@@ -10,6 +10,7 @@ permalink:           pretty
 # About/contact
 author:
   name:              Stefan Inzer
+  linkedin:          https://www.linkedin.com/in/stefan-inzer/
  # url:               https://twitter.com/mdo
   email:             sinzer@uw.edu
 
