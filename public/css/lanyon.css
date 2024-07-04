@@ -40,13 +40,13 @@
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
  :root {
- --body-bg: #0E0E0E;
+ --body-bg: #0e0e0e;
  --body-color: #fafafa;
  --heading: #fcfdff;
  --red: #e3b5b6; 
  --orange: #f0d6c1;
  --cyan: #cde4e0;
- --blue: #248EB9;
+ --blue: #248eb9;
   }
 }
 
