@@ -40,7 +40,7 @@
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
  :root {
- --body-bg: #18181a;
+ --body-bg: #0E0E0E;
  --body-color: #fafafa;
  --heading: #fcfdff;
  --red: #e3b5b6; 
