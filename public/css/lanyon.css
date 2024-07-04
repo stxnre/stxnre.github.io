@@ -27,6 +27,21 @@
  * Themes
  */
 
+:root {
+ --body-bg: #fff;
+ --body-color: #515151;
+ --heading: #313131;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+ :root {
+ --body-bg: #18181a;
+ --body-color: #fafafa;
+ --heading: #fcfdff;
+  }
+}
+
 
 /*
  * Global resets
@@ -47,7 +62,7 @@ html {
 h1, h2, h3, h4, h5, h6 {
   font-family: "PT Serif", Georgia, "Times New Roman", serif;
   font-weight: 400;
-  color: #313131;
+  color: var(--heading);
   letter-spacing: -.025rem;
 }
 
@@ -164,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Sidebar content */
 .sidebar a {
   font-weight: normal;
-  color: #fff;
+  color: var(--body-bg);
 }
 .sidebar-item {
   padding: 1rem;
@@ -218,7 +233,7 @@ a.sidebar-nav-item:focus {
   align-items: center;
   padding: .25rem .75rem;
   color: #505050;
-  background-color: #fff;
+  background-color: var(--body-bg);
   border-radius: .25rem;
   cursor: pointer;
 }
@@ -234,7 +249,7 @@ a.sidebar-nav-item:focus {
 .sidebar-toggle:active,
 #sidebar-checkbox:focus ~ .sidebar-toggle,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
-  color: #fff;
+  color: var(--body-bg);
   background-color: #555;
 }
 
