@@ -31,6 +31,7 @@
 :root {
  --body-bg: #fff;
  --body-color: #515151;
+ --heading: #313131;
 }
 
 /* Dark mode */
@@ -38,6 +39,7 @@
  :root {
  --body-bg: #18181a;
  --body-color: #fafafa;
+ --heading: #fcfdff;
   }
 }
 
@@ -97,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
-  color: #313131;
+  color: var(--heading);
   text-rendering: optimizeLegibility;
 }
 h1 {
