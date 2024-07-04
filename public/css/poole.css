@@ -28,6 +28,19 @@
  * Themes
  */
 
+:root {
+ --body-bg: #fff;
+ --body-color: #515151;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+ :root {
+ --body-bg: #18181a;
+ --body-color: #fafafa;
+  }
+}
+
 
 /*
  * Body resets
@@ -59,8 +72,8 @@ html {
 }
 
 body {
-  color: #515151;
-  background-color: #fff;
+  color: var(--body-color);
+  background-color: var(--body-bg);
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
