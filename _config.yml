@@ -1,7 +1,7 @@
 # Setup
 title:               Stefan Inzer
 tagline:             'stxnre'
-description:         'PhD Student in Statistics at the University of Washington, interested in machine learning and time series analysis.'
+description:         'PhD Student in Statistics at the University of Washington, interested in time series analysis and causal inference.'
 url:                 https://stxnre.github.io
 # baseurl:             ''
 paginate:            5
